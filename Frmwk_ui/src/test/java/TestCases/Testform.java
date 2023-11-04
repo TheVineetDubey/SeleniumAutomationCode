@@ -39,6 +39,7 @@ public class Testform {
         driver.get("https://qa-practice.netlify.app/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        System.out.println("Github");
 
     }
 
