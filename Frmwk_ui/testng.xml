@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name=" automation framework">
+    <listeners>
+        <listener class-name="Reporting.Listenertest"></listener>
+    </listeners>
+    <parameter name="name" value="vineet"></parameter>
+    <parameter name="lastname" value="D"></parameter>
+    <parameter name="email" value="admin@admin.com"></parameter>
+    <parameter name="password" value="admin123"></parameter>
+    <parameter name="phone" value="123456789"></parameter>
+    <parameter name="street" value="new"></parameter>
+    <parameter name="city" value="gzb"></parameter>
+    <parameter name="country" value="India"></parameter>
+
+    <test name=" sample application" >
+        <classes>
+            <class name="TestCases.Testform"/>
+        </classes>
+    </test>
+
+
+</suite>
